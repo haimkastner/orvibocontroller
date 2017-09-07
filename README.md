@@ -12,3 +12,11 @@ There are two utilities, one with a user interface and one to operate from the c
 
 - The UI utility can be used to set cycle on/off times and a max cycle count for testing.
 - The console utility can be used in a similar manner to discover query, set and cycle devices
+
+Fork changes 
+=================
+
+##changes for https://github.com/haimkastner/GenericIoTServer
+
+Add feedback Whether the sockes status change was successful
+
