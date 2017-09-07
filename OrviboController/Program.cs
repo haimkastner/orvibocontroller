@@ -84,7 +84,8 @@ namespace OrviboController
                             var ipAddr = IPAddress.Parse(args[2]);
 
                             SetupController();
-                            DoSet(macAddr, ipAddr, true);
+                            // Print if the action done successfully
+                            Console.WriteLine(DoSet(macAddr, ipAddr, true));
                         }
                         catch (Exception e)
                         {
@@ -107,7 +108,8 @@ namespace OrviboController
                             var ipAddr = IPAddress.Parse(args[2]);
 
                             SetupController();
-                            DoSet(macAddr, ipAddr, false);
+                            // Print if the action done successfully
+                            Console.WriteLine(DoSet(macAddr, ipAddr, false));
                         }
                         catch (Exception e)
                         {
