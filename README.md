@@ -16,7 +16,7 @@ There are two utilities, one with a user interface and one to operate from the c
 Fork changes 
 =================
 
-###changes for https://github.com/haimkastner/GenericIoTServer
+## changes for https://github.com/haimkastner/GenericIoTServer
 
 Add feedback Whether the sockes status change was successful
 
