@@ -111,6 +111,13 @@ namespace OrviboController.Common
                             // Get power state
                             powerState = ms.ReadByte();
 
+                            // If the message there is no device in IP the power if garbege
+                            if(powerState > 1)
+                            {
+                                System.Console.WriteLine("Exception : The device in requst IP not exist");
+                                return new UnhandledeResponse();
+                            }
+
                             rsp = new SubscriptionResponse();
                             ((SubscriptionResponse)rsp).PowerState = (powerState != 0);
                             break;
